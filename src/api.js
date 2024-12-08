@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3001";
+const API_URL = "backend-nvidad.vercel.app";
 
 export const getParticipants = async () => {
   const response = await fetch(`${API_URL}/participants`);
